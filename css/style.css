@@ -11,6 +11,7 @@ body {
      font-family: Roboto;
 }
 ul {list-style: none;}
+a {text-decoration: none;}
 /* Button */
 .button-primeri {
     color: var(--primeri-bg-color);
@@ -36,9 +37,10 @@ ul {list-style: none;}
     font-size: 14px;
     line-height: 1.14;}
     font-weight: 500;
-.site-nav .link:hover,
-.site-nav .link:focus
-{color: var(--accent-color)}
+.site-nav .link:focus,
+.site-nav .link:hover{
+color: var(--accent-color);
+}
 .site-nav .link.current{
 color: var(--accent-color)
 }
@@ -98,18 +100,18 @@ font-size: 16px;
 }
 /*         PORFOLIO           */
 /* primeri nav */
-.primeri-nav .link {
+.primeri-nav .button {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.62;
     font-weight: 500;
 }
-.primeri-nav .link:hover,
-.primeri-nav .link:focus {
+.primeri-nav .button:hover,
+.primeri-nav .button:focus {
     color: var(--primeri-bg-color);
     background-color: var(--accent-color);
 }
-.primeri-nav .link.current {
+.primeri-nav .button.current {
     color: var(--primeri-bg-color);
     background-color: var(--accent-color);
 }
